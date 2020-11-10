@@ -1,0 +1,47 @@
+{
+  "name": "pg-container",
+  "version": "1.0.0",
+  "description": "Postgres containers for Node",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elierotenberg/node-pg-container.git"
+  },
+  "keywords": [
+    "postgres",
+    "node"
+  ],
+  "author": "Elie Rotenberg <elie@rotenberg.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elierotenberg/node-pg-container/issues"
+  },
+  "homepage": "https://github.com/elierotenberg/node-pg-container#readme",
+  "devDependencies": {
+    "@types/dockerode": "^3.2.1",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^14.14.7",
+    "@types/pg": "^7.14.6",
+    "@typescript-eslint/eslint-plugin": "^4.7.0",
+    "@typescript-eslint/parser": "^4.7.0",
+    "dockerode": "^3.2.1",
+    "eslint": "^7.13.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "jest": "^26.6.3",
+    "pg": "^8.4.2",
+    "pg-promise": "^10.7.3",
+    "prettier": "^2.1.2",
+    "ts-jest": "^26.4.4",
+    "typedoc": "^0.19.2",
+    "typescript": "^4.0.5"
+  },
+  "peerDependencies": {
+    "pg": "^8.4.2",
+    "dockerode": "^3.2.1"
+  }
+}
